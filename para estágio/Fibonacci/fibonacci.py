@@ -4,7 +4,7 @@ def isFibonacci(n: int) -> bool:
         return True
     else:
         print(f"O numero {n} não faz parte da sequência de Fibonacci!")
-
+        return False
 
 def Fibonacci(n: int, n1 = 0, n2 = 1) -> bool:
     if((n1 + n2) == n):
